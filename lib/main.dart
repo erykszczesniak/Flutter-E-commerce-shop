@@ -1,4 +1,5 @@
-import 'package:ecommerce_app/splash_screen.dart';
+import 'package:ecommerce_app/routes.dart';
+import 'file:///C:/Users/asus/Documents/ecommerce_app/lib/screens/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'constants.dart';
@@ -23,7 +24,8 @@ class MyApp extends StatelessWidget {
         ),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: SplashScreen(),
+      initialRoute: SplashScreen.routeName,
+      routes: routes,
     );
   }
 }
