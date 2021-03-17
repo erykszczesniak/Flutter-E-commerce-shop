@@ -1,4 +1,4 @@
-import 'package:ecommerce_app/components/body.dart';
+import 'package:ecommerce_app/screens/splash/components/body.dart';
 import 'package:ecommerce_app/size_config.dart';
 import 'package:flutter/material.dart';
 
