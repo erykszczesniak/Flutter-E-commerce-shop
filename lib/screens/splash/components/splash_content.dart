@@ -22,7 +22,7 @@ class SplashContent extends StatelessWidget {
           "SNKRS SHOP",
           style: TextStyle(
             fontSize: getProportionateScreenHeight(36),
-            color: kPrimaryColor,
+            color: Colors.black,
             fontWeight: FontWeight.bold,
           ),
         ),

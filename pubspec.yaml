@@ -13,7 +13,7 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.0
-  flutter_svg: ^0.17.4 # help us to use SVG in our app
+  flutter_svg: ^0.18.0 # help us to use SVG in our app
   provider: ^4.3.1 # for State management
 
 dev_dependencies:
