@@ -5,7 +5,7 @@ import 'package:ecommerce_app/screens/splash/components/splash_content.dart';
 import 'package:flutter/material.dart';
 
 import '../../../size_config.dart';
-import 'default_button.dart';
+import '../../../components/default_button.dart';
 
 
 
@@ -93,7 +93,7 @@ class _BodyState extends State<Body> {
       height: 6,
       width: currentPage == index ? 20 : 6,
       decoration: BoxDecoration(
-        color: currentPage == index ? kPrimaryColor : Color(0xFFD8D8D8),
+        color: currentPage == index ? Colors.black : Colors.grey,
         borderRadius: BorderRadius.circular(3),
       ),
     );
